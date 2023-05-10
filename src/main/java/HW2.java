@@ -14,7 +14,7 @@ public class HW2 {
         }
 
         try(Reader reader = new InputStreamReader(new FileInputStream(file1))) {
-            int a = reader.read();
+        int a = reader.read();
             StringBuilder result = new StringBuilder();
             while (a > 0) {
                 result.append((char) a);
