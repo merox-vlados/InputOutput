@@ -2,7 +2,7 @@ import java.io.*;
 
 public class UserMain {
     public static void main(String[] args) {
-//        File file = new File("users.usr");
+        File file = new File("users.usr");
 //        try {
 //            file.createNewFile();
 //        } catch (IOException e) {
